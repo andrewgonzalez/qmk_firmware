@@ -15,7 +15,6 @@
 
 //#define LEADER_TIMEOUT 300
 //#define BACKLIGHT_BREATHING
-#define PREVENT_STUCK_MODIFIERS
 //#define PERMISSIVE_HOLD
 // #define QMK_KEYS_PER_SCAN 4
 
@@ -51,9 +50,6 @@
  * MIDI options
  */
 
-/* Prevent use of disabled MIDI features in the keymap */
-//#define MIDI_ENABLE_STRICT 1
-
 /* enable basic MIDI features:
    - MIDI notes can be sent when in Music mode is on
 */
@@ -72,5 +68,5 @@
 
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
-                                
+
 #endif
